@@ -1,230 +1,223 @@
 :root {
-    --primary-white-color: #FFFFFF;
-    --primary-text-color: #757575;
-    --title-color: #212121;
-    --accent-color: #2196F3;
-    --hero-background-color: #2F303A;
-    --secondary-background-color: #F5F4FA;
-    --hover-accent-color: #188CE8;
+  --primary-white-color: #ffffff;
+  --primary-text-color: #757575;
+  --title-color: #212121;
+  --accent-color: #2196f3;
+  --hero-background-color: #2f303a;
+  --secondary-background-color: #f5f4fa;
+  --hover-accent-color: #188ce8;
 }
 
 body {
-    background-color: var(--primary-white-color);
-    color: var(--primary-text-color);
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
 
-    font-family: roboto, sans-serif;
+  font-family: roboto, sans-serif;
 
-    letter-spacing: 0.03em;
-    font-size: 14px;
-    line-height: 1.7;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+  line-height: 1.7;
 }
 
 .link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .title {
-    color: var(--title-color);
+  color: var(--title-color);
 }
 
 .section-title {
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.16;
-    text-align: center;
-    letter-spacing: 0.03em;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .list {
-    list-style: none;
+  list-style: none;
 }
 
-.page-hero, .page-footer {
-    background-color: var(--hero-background-color);
+.page-hero,
+.page-footer {
+  background-color: var(--hero-background-color);
 }
 /* Header */
 
 .logo {
-    color: var(--accent-color);
-    font-family: raleway, sans-serif;
-    font-size: 26px;
-    line-height: 1.2;
-    letter-spacing: 0.03em;
+  color: var(--accent-color);
+  font-family: raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 
 .logo-header {
-    color: #000000;
+  color: #000000;
 }
 
 .logo-footer {
-    color: #FFFFFF;
+  color: #ffffff;
 }
 
 .site-nav .link {
-    color: var(--title-color);
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
+  color: var(--title-color);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .contacts-header .link {
-    color: var(--primary-text-color);
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-
+  color: var(--primary-text-color);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .contacts-header .link:hover,
-.contacts-header .link:focus{
-    color: var(--accent-color);
+.contacts-header .link:focus {
+  color: var(--accent-color);
 }
 
 /* Hero */
 
 .hero-title {
-    color: var(--primary-white-color);
-    font-size: 44px;
-    font-weight: 900;
-    line-height: 1.4;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    text-align: center;
+  color: var(--primary-white-color);
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.4;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .hero-button {
-    width: 216px;
-    height: 50px;
+  width: 216px;
+  height: 50px;
 
-    background-color: var(--accent-color);
-    border-style: none;
-    border-radius: 4px;
-    color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  border-style: none;
+  border-radius: 4px;
+  color: var(--primary-white-color);
 
-    font-family: roboto;
-    font-size: 16px;
-    line-height: 2.3;
-    font-weight: 700;
-    text-align: center;
-    letter-spacing: 0.06em;
-    }
+  font-family: roboto;
+  font-size: 16px;
+  line-height: 2.3;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
 
 .hero-button:hover,
 .hero-button:focus {
-    background-color: var(--hover-accent-color);
+  background-color: var(--hover-accent-color);
 }
 
 /* Our qualities */
 
 .qualities > .section-title {
-    display: none;
+  display: none;
 }
 
 .qualities-section {
-    display: flex;
+  display: flex;
 }
 
 .qualities-list {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.4;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 /* Specialization */
 
 .specialization-picts {
-    display: flex;
+  display: flex;
 }
 
 /* Our Team */
 
 .card-title {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.2;    
-    text-align: center;
-    letter-spacing: 0.03em;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .team-cards {
-    display: flex;
+  display: flex;
 }
 
 .team-card p {
-        font-size: 16px;
-        line-height: 1.2;    
-        text-align: center;
-        letter-spacing: 0.03em;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /* Footer */
 
-
 .contacts .link {
-    color: var(--primary-white-color);
-    font-style: normal;
-    color: rgba(255, 255, 255, 0.6);
+  color: var(--primary-white-color);
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .postaddress.link {
-    color: var(--primary-white-color);
-    font-style: normal;
+  color: var(--primary-white-color);
+  font-style: normal;
 }
 
 /* Portfolio */
 .gallery-title {
-    display: none;
+  display: none;
 }
 
 /* Buttons */
 .buttons {
-    display: flex;
+  display: flex;
 }
 
 .gallery-button {
-    background-color: var(--secondary-background-color);
-    color: var(--title-color);
-    border: none;
-    border-radius: 4px;
-
+  background-color: var(--secondary-background-color);
+  color: var(--title-color);
+  border: none;
+  border-radius: 4px;
 }
 
 .gallery-button:hover,
 .gallery-button:focus {
-    background-color:var(--accent-color);
-    color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
 }
-
 
 /* Card-set */
 
 .card-title {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 
 .card-text {
-    color: var(--primary-text-color);
-    font-size: 16px;
-    line-height: 1.8;
-    letter-spacing: 0.03em;
-    text-align: center;
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+  text-align: center;
 }
-
-
-
 
 /* .section-title {
     text-align: center;
