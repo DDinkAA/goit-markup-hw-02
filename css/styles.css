@@ -21,6 +21,7 @@ body {
 
 .link {
   text-decoration: none;
+  
 }
 
 .title {
@@ -43,6 +44,11 @@ body {
 .page-footer {
   background-color: var(--hero-background-color);
 }
+
+.button {
+    cursor: pointer;
+}
+
 
 /* Header */
 
@@ -116,7 +122,6 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
 
-  cursor: pointer;
 }
 
 .hero-button:hover,
