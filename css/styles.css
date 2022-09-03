@@ -147,6 +147,14 @@ body {
 
 /* Our Team */
 
+.team {
+    background-color: var(--secondary-background-color);
+}
+
+.team-card {
+    background-color: var(--primary-white-color);
+}
+
 .card-title {
   font-size: 16px;
   font-weight: 500;
